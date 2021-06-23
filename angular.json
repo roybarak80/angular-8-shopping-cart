@@ -26,7 +26,6 @@
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
-              
             ],
             "scripts": []
           },
@@ -120,8 +119,13 @@
               "devServerTarget": "shopping-cart:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "shopping-cart"
 }
