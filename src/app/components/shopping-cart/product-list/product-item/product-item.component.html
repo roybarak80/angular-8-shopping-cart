@@ -1,8 +1,11 @@
 
     <div class="card shadow-sm">
-      <img class="bd-placeholder-img card-img-top" width="100%" height="225" [src]="productItem.imageUrl"/>
+      <img class="bd-placeholder-img card-img-top" width="100%" height="225" [src]="productItem.image"/>
 
       <div class="card-body">
+        <p class="card-text">
+          {{productItem.description | slice: 0:80}}...
+        </p>
         <small class="text-muted">{{productItem.price | currency:'INR'}}</small>
         <div class="d-flex justify-content-between align-items-center">
           <div class="btn-group">

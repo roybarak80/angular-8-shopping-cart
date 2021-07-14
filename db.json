@@ -1,0 +1,68 @@
+{
+  "products":
+    [
+      {
+          "id": 1,
+          "name": "Product 1",
+          "description": "new",
+          "price": 100,
+          "imageUrl": "https://user-images.githubusercontent.com/41929050/61567048-13938600-aa33-11e9-9cfd-712191013192.jpeg"
+      },
+      {
+          "id": 2,
+          "name": "Product 2",
+          "description": "new",
+          "price": 200,
+          "imageUrl": "https://user-images.githubusercontent.com/41929050/61567049-13938600-aa33-11e9-9c69-a4184bf8e524.jpeg"
+      },
+      {
+          "id": 3,
+          "name": "Product 3",
+          "description": "new",
+          "price": 2200,
+          "imageUrl": "https://user-images.githubusercontent.com/41929050/61567053-13938600-aa33-11e9-9780-104fe4019659.png"
+      },
+      {
+          "id": 4,
+          "name": "Product 4",
+          "description": "new",
+          "price": 2100,
+          "imageUrl": "https://user-images.githubusercontent.com/41929050/61567051-13938600-aa33-11e9-8ae7-0b5c19aafab4.jpeg"
+      },
+      {
+          "id": 5,
+          "name": "Product 5",
+          "description": "new",
+          "price": 130,
+          "imageUrl": "https://user-images.githubusercontent.com/41929050/61567054-13938600-aa33-11e9-9163-eec98e239b7a.png"
+      },
+      {
+          "id": 6,
+          "name": "Product 6",
+          "description": "new",
+          "price": 110,
+          "imageUrl": "https://user-images.githubusercontent.com/41929050/61567055-142c1c80-aa33-11e9-96ff-9fbac6413625.png"
+      }
+  
+  ],
+  "cart":[
+
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
